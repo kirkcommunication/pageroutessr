@@ -8,16 +8,6 @@ import Link from 'next/link';
 export default function TopNavigation({ className }: { className?: string }) {
       const [active, setActive] = useState<string | null>(null);
   return (
-    
-
-    
-    
-    
-    
-    
-   
-
-
     <div  className={cn("top-10 inset-x-0 max-w-5xl z-50", className)}>
       <Menu setActive={setActive}>
          <Link href={"/"}>
