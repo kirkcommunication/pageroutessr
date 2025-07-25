@@ -16,7 +16,7 @@ export default function BlogPage({ post }: Props) {
         <meta name="description" content={post?.yoast_head_json?.og_description	} />
         {/* You can also add og: and twitter: tags */}
       </Head>
-    <div className="flex flex-col container m-auto px-3 py-3">
+    <div className="container m-auto px-3 py-3">
       { post?.title?.rendered && (<h1 dangerouslySetInnerHTML={{ __html: post.title.rendered }} />)}
       { post?.content?.rendered && (<div dangerouslySetInnerHTML={{ __html: post.content.rendered }} />)}
     </div>
