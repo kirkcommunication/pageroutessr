@@ -71,7 +71,7 @@ export default function TopNavigation({ className }: { className?: string }) {
          <MenuItem setActive={setActive} active={active} item=" About">
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/blog">Blog</HoveredLink>
-            <HoveredLink href="/interface-design">Interface Design</HoveredLink>
+            <HoveredLink href="/about-us">About Us</HoveredLink>
             <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
             <HoveredLink href="/branding">Branding</HoveredLink>
           </div>
