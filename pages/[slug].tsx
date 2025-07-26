@@ -1,7 +1,7 @@
 import React from "react";
-import { GetPageData } from "./lib/getData";
+import { GetPageData } from "../lib/getData";
 import { GetServerSideProps } from "next";
-import { PostTypes } from "./types/wordpress";
+import { PostTypes } from "../types/wordpress";
 import Head from "next/head";
 
 type Props = {

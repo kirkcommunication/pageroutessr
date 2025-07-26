@@ -1,12 +1,12 @@
 import React from "react";
 import { GetServerSideProps } from "next";
-import { PostTypes } from "../types/wordpress";
+import { PostTypes } from "../../types/wordpress";
 import Link from "next/link";
 
-import { GetPaginatedPosts } from "../lib/getData";
+import { GetPaginatedPosts } from "../../lib/getData";
 
-import { cn } from "../lib/utils";
-import { BentoGrid, BentoGridItem } from "../components/ui/bento-grid";
+import { cn } from "../../lib/utils";
+import { BentoGrid, BentoGridItem } from "../../components/ui/bento-grid";
 import {
   IconArrowWaveRightUp,
   IconBoxAlignRightFilled,

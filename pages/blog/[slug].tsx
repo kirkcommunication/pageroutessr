@@ -1,7 +1,7 @@
 import React from 'react'
 import { GetServerSideProps } from 'next'
-import { GetPostDetail } from '../lib/getData'
-import { PostTypes } from '../types/wordpress'
+import { GetPostDetail } from '../../lib/getData'
+import { PostTypes } from '../../types/wordpress'
 import Head from 'next/head'
 
 type Props = {
